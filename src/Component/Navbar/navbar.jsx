@@ -9,12 +9,10 @@ export const Navbar = () => {
 
     const [active, setActive] = useState('navBar') ;
 
-    // function to toggle navBar
     const showNav = ()=> {
         setActive('navBar activeNavbar');
     }
 
-    // function to remove navBar
     const removeNavbar = ()=> {
         setActive('navBar');
     }
