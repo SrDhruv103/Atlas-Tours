@@ -22,7 +22,7 @@ const Data = [
     location: 'New Zealand',
     grade: 'CULTURAL RELAX',
     fees: '$300',
-    description: 'The epitome of Romance, Bora Bora is one of the best traveldestinationin the World. This place is known for its Luxuriousstays and adventrous activities. '
+    description: 'The epitome of Romance, Bora Bora is one of the best travel destination in the World. This place is known for its Luxurious stays and adventrous activities. '
   },
   {
     id: 2,
