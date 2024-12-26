@@ -66,7 +66,6 @@ export const Home = () => {
           </div>
 
 
-
         </div>
 
         <div data-aos="fade-up" className="homeFooterIcons flex">

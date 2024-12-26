@@ -17,7 +17,6 @@ export const Navbar = () => {
         setActive('navBar');
     }
 
-
     return (
         <section className='navBarSection' >
             <header className='header flex'>
