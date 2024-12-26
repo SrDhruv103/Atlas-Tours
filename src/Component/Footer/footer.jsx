@@ -9,7 +9,6 @@ import { FaTripadvisor } from "react-icons/fa"
 import Aos from "aos"
 import 'aos/dist/aos.css'
 
-
 const Footer = () => {
 
   useEffect(() => {
@@ -167,7 +166,7 @@ const Footer = () => {
 
           <div className="footerDiv flex">
             <small>BEST TRAVEL AGENCY</small>
-            <small>COPYRIGHT RESERVED</small>
+            <small>© 2024 ALL RIGHTS RESERVED</small>
           </div>
 
         </div>
