@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import "./main.css"
-import {HiOutlineLocationMarker, HiOutlineClipboardCheck} from 'react-icons/hi'
+import { HiOutlineLocationMarker, HiOutlineClipboardCheck } from 'react-icons/hi'
 import img from '../Assets/img (1).jpg'
 import img2 from '../Assets/img (2).jpg'
 import img3 from '../Assets/img (3).jpg'
@@ -100,10 +100,10 @@ const Data = [
 
 export const Main = () => {
 
-    useEffect(()=>{
-      Aos.init({duration: 2000})
-    }, [])
-  
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
+  }, [])
+
 
   return (
     <section className='main container section'>
@@ -115,8 +115,8 @@ export const Main = () => {
       <div className="secContent grid">
 
         {
-          Data.map(({id, imgSrc, destTitle, location, grade, fees, description })=>{
-            return ( 
+          Data.map(({ id, imgSrc, destTitle, location, grade, fees, description }) => {
+            return (
               <div key={id} data-aos="fade-up" className="singleDestination">
 
                 <div className="imageDiv">
@@ -154,7 +154,7 @@ export const Main = () => {
             )
           })
         }
-        
+
       </div>
 
 

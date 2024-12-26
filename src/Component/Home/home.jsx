@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import "./home.css"
 import video from '../Assets/video.mp4'
 import { GrLocation } from 'react-icons/gr'
@@ -14,8 +14,8 @@ import 'aos/dist/aos.css'
 
 export const Home = () => {
 
-  useEffect(()=>{
-    Aos.init({duration: 2000})
+  useEffect(() => {
+    Aos.init({ duration: 2000 })
   }, [])
 
   return (
@@ -83,8 +83,6 @@ export const Home = () => {
           </div>
 
         </div>
-
-
 
       </div>
 
