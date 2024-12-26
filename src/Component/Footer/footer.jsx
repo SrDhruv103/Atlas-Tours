@@ -12,7 +12,6 @@ import 'aos/dist/aos.css'
 
 const Footer = () => {
 
-  // use react hooks to add a scroll animation
   useEffect(()=>{
     Aos.init({duration: 2000})
   }, [])
@@ -67,7 +66,6 @@ const Footer = () => {
 
           <div className="footerLinks grid">
 
-            {/* Group One */}
             <div data-aos="fade-up" data-aos-duration="3000" className="linkGroup">
               <span className="groupTitle">
                 OUR AGENCY
@@ -100,7 +98,6 @@ const Footer = () => {
 
             </div>
 
-            {/* Group Two */}
             <div data-aos="fade-up" data-aos-duration="4000" className="linkGroup">
               <span className="groupTitle">
                 PARTNERS
@@ -133,7 +130,6 @@ const Footer = () => {
 
             </div>
 
-            {/* Group Three */}
             <div data-aos="fade-up" data-aos-duration="5000" className="linkGroup">
               <span className="groupTitle">
                 LAST MINUTE
